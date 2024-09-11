@@ -10,6 +10,7 @@ text-align: center; color: green;
 body {
 background: greenyellow;
 font-family: Arial, Helvetica, sans-serif;
+margin: 40px
 }
 h1 {
 color: purple;
