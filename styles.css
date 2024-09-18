@@ -34,32 +34,20 @@ p {
 
 /* About section styling */
 .about h2 {
-    background-color: lightblue;
     color: midnightblue; /* Text color changed to dark blue */
-    padding: 10px;
-    border-radius: 5px;
 }
 
 /* Skills section styling */
 .skills h2 {
-    background-color: lightcoral;
     color: firebrick; /* Text color changed to dark red */
-    padding: 10px;
-    border-radius: 5px;
 }
 
 /* Projects section styling */
 .projects h2 {
-    background-color: lightgreen;
     color: darkgreen; /* Text color changed to darker green */
-    padding: 10px;
-    border-radius: 5px;
 }
 
 /* Contact section styling */
 .contact h2 {
-    background-color: lightyellow;
     color: goldenrod; /* Text color changed to gold-like tone */
-    padding: 10px;
-    border-radius: 5px;
 }
