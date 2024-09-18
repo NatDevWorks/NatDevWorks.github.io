@@ -29,21 +29,21 @@ p {
 }
 
 /* About section styling */
-.about{
+.about h2{
     color: midnightblue; /* Text color changed to dark blue */
 }
 
 /* Skills section styling */
-.skills{
+.skills h2{
     color: firebrick; /* Text color changed to dark red */
 }
 
 /* Projects section styling */
-.projects{
+.projects h2{
     color: darkgreen; /* Text color changed to darker green */
 }
 
 /* Contact section styling */
-.contact {
+.contact h2{
     color: goldenrod; /* Text color changed to gold-like tone */
 }
