@@ -79,14 +79,3 @@ p {
     border-radius: 5px;
 }
 
-/* Basic link styling */
-a {
-    color: darkred;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: orange;
-}
-
