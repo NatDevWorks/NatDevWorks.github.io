@@ -4,14 +4,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 20px;
-    line-height: 1.6;
 }
 
 h1 {
     color: purple;
     text-align: center;
-    font-size: 32px;
-    margin-bottom: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -19,23 +16,16 @@ h1 {
 h2 {
     color: darkblue;
     text-align: center;
-    font-size: 28px;
-    margin: 20px 0;
 }
 
 p {
     text-align: center;
     color: red;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 20px 0;
 }
 
 #para1 {
     display: block;
     text-align: center;
     color: blue;
-    font-size: 18px;
-    margin-bottom: 20px;
 }
 
