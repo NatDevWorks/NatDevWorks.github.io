@@ -12,6 +12,7 @@ h1 {
 
 /* Heading 2 styling */
 h2 {
+    color: blue; /* Changed to a blue */
     text-align: center;
 }
 
@@ -25,7 +26,6 @@ p {
 #para1 {
     display: block;
     text-align: center;
-    color: teal; /* Different color for the span */
 }
 
 /* About section styling */
