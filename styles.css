@@ -23,9 +23,27 @@ p {
     color: red;
 }
 
-#para1 {
-    display: block;
-    text-align: center;
-    color: blue;
+.about h2 {
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skills h2 {
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projects h2 {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact h2 {
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 5px;
 }
 
