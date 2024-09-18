@@ -1,4 +1,4 @@
-
+/* General body styling */
 body {
     background: greenyellow;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,49 +6,61 @@ body {
     padding: 20px;
 }
 
+/* Heading 1 styling */
 h1 {
-    color: purple;
+    color: darkviolet; /* Changed to a deeper purple */
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
 }
 
+/* Heading 2 styling */
 h2 {
-    color: darkblue;
+    color: navy; /* Darkened blue */
     text-align: center;
 }
 
+/* Paragraph styling */
 p {
     text-align: center;
-    color: red;
+    color: crimson; /* Changed red to crimson for a softer look */
 }
 
+/* Span styled like a paragraph */
 #para1 {
     display: block;
     text-align: center;
+    color: teal; /* Different color for the span */
 }
 
+/* About section styling */
 .about h2 {
     background-color: lightblue;
+    color: midnightblue; /* Text color changed to dark blue */
     padding: 10px;
     border-radius: 5px;
 }
 
+/* Skills section styling */
 .skills h2 {
     background-color: lightcoral;
+    color: firebrick; /* Text color changed to dark red */
     padding: 10px;
     border-radius: 5px;
 }
 
+/* Projects section styling */
 .projects h2 {
     background-color: lightgreen;
+    color: darkgreen; /* Text color changed to darker green */
     padding: 10px;
     border-radius: 5px;
 }
 
+/* Contact section styling */
 .contact h2 {
     background-color: lightyellow;
+    color: goldenrod; /* Text color changed to gold-like tone */
     padding: 10px;
     border-radius: 5px;
 }
-
