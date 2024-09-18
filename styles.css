@@ -23,6 +23,11 @@ p {
     color: red;
 }
 
+#para1 {
+    display: block;
+    text-align: center;
+}
+
 .about h2 {
     background-color: lightblue;
     padding: 10px;
