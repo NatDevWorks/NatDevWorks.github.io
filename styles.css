@@ -4,46 +4,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Heading 1 styling */
-h1 {
-    color: darkviolet; /* Changed to a deeper purple */
-    text-align: center;
+.projects {
 }
 
-/* Heading 2 styling */
-h2 {
-    color: blue; /* Changed to a blue */
-    text-align: center;
-}
-
-/* Paragraph styling */
-p {
-    text-align: center;
-    color: crimson; /* Changed red to crimson for a softer look */
-}
-
-/* Span styled like a paragraph */
-#para1 {
-    display: block;
-    text-align: center;
-}
-
-/* About section styling */
-h2.about{
-    color: midnightblue; /* Text color changed to dark blue */
-}
-
-/* Skills section styling */
-h2.skills{
-    color: firebrick; /* Text color changed to dark red */
-}
-
-/* Projects section styling */
-h2.projects{
-    color: darkgreen; /* Text color changed to darker green */
-}
-
-/* Contact section styling */
-h2.contact{
-    color: goldenrod; /* Text color changed to gold-like tone */
-}
