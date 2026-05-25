@@ -1,84 +1,211 @@
-<html>
-    <head>
-        <title>CSCE 190: Nathan Douangkesone</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume portfolio for Nathan Douangkesone, computer science student and developer.">
+    <title>Nathan Douangkesone | Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a class="logo" href="#top">NatDevWorks</a>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a class="nav-button" href="Files/Resume.pdf">Resume</a>
+            </div>
+        </nav>
+    </header>
 
-<h1>Nathan Douangkesone</h1>
+    <main id="top">
+        <section class="hero section">
+            <div class="hero-copy">
+                <p class="eyebrow">Computer Science Student</p>
+                <h1>Nathan Douangkesone</h1>
+                <p class="hero-text">
+                    I build practical software projects with an interest in systems, networking,
+                    troubleshooting, and computing for high-impact engineering environments.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="Files/Resume.pdf">Download Resume</a>
+                    <a class="button secondary" href="https://github.com/NatDevWorks" target="_blank" rel="noreferrer">View GitHub</a>
+                </div>
+            </div>
+            <div class="profile-panel" aria-label="Profile summary">
+                <img src="Images/profile_image.jpg" alt="Nathan Douangkesone">
+                <div>
+                    <p class="profile-name">Nathan Douangkesone</p>
+                    <p>Advanced computing systems focus</p>
+                </div>
+            </div>
+        </section>
 
-<h2 class="about">About Me</h2>
-<div class="about">
-    <img src="Images/profile_image.jpg" alt="Nathan Douangkesone's Profile Image">
-    <p>Hello, I’m Nathan Douangkesone. As a computer science major with a focus on advanced computing systems, 
-        I’m driven to contribute to the field of nuclear computer engineering. With a passion for innovation 
-        and a dedication to harnessing technology for critical applications, my goal is to support the advancement 
-        of nuclear technologies through robust, impactful computing solutions.</p>
-</div>
+        <section class="section intro">
+            <div>
+                <p class="section-label">About</p>
+                <h2>Developer with a systems-first mindset.</h2>
+            </div>
+            <p>
+                I am a computer science major focused on advanced computing systems and the role
+                reliable software can play in critical engineering domains. My work spans academic
+                design projects, Java programming, Linux and Windows environments, networking,
+                remote systems, and technical troubleshooting.
+            </p>
+        </section>
 
-</div>    
-<h2 class="skills">Skills</h2>
-    <div class="skills">
-        <ul>
-            <li>Basic computer architecture</li>
-            <li>Troubleshooting</li>
-            <li>Operating systems (Windows, Linux)</li>
-            <li>Remote connection and virtual machines</li>
-            <li>Computer networking</li>
-            <li>VPNs and proxies</li>
-            <li>Package and software management</li>
-            <li>Process management</li>
-        </ul>
-        <p><b>Resume:</b><a href="Files/Resume.pdf">Download here</a></p>
-    </div>
-<h2 class="projects">Highlighted projects</h2>
-    <div class = "projects">
-        <!-- Problem Statement Assignment -->
-        <section class="project">
-            <a href="Files/Statement.pdf"><h3 >Problem Statement</h3></a>
-            <a href="Files/Statement.pdf"><img src="Images/problem.png"></a>
-            <p>Drivers often struggle to understand complex error codes </p>
-            <p>displayed by their vehicle's OBD system thus creating problems and increasing time on fixing their car</p>
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="section-label">Portfolio</p>
+                <h2>Highlighted Projects</h2>
+                <p>Selected capstone, coursework, and GitHub repositories that show design thinking, programming practice, and technical growth.</p>
+            </div>
+
+            <article class="capstone-spotlight">
+                <div class="capstone-copy">
+                    <p class="section-label">Standout Capstone</p>
+                    <h3>WashYourRice</h3>
+                    <p>
+                        A team-built Unreal Engine 5 horror game where players survive a nightmare
+                        by solving computer-based puzzles, managing sanity, crafting inventory items,
+                        and reacting to enemy encounters across multiple nights.
+                    </p>
+                    <div class="capstone-tags" aria-label="Project technologies and focus areas">
+                        <span>Unreal Engine 5</span>
+                        <span>Gameplay Systems</span>
+                        <span>Level Design</span>
+                        <span>Automation Testing</span>
+                    </div>
+                    <div class="hero-actions">
+                        <a class="button primary" href="https://github.com/NatDevWorks/WashYourRice" target="_blank" rel="noreferrer">View Repository</a>
+                        <a class="button secondary" href="https://sccapstone.github.io/WashYourRice/" target="_blank" rel="noreferrer">Capstone Website</a>
+                    </div>
+                </div>
+                <div class="capstone-preview" aria-label="WashYourRice project summary">
+                    <img src="Images/WashYourRice.png" alt="WashYourRice game title screen">
+                    <div class="preview-content">
+                        <p>Night 01</p>
+                        <strong>Survive until 6 AM</strong>
+                        <small>Decode binary puzzle strings, manage sanity, monitor enemy audio cues, and use room interactions to escape.</small>
+                    </div>
+                </div>
+            </article>
+
+            <div class="project-grid">
+                <article class="project-card featured">
+                    <img src="Images/Vector_Math_code.png" alt="Vector Math code screenshot">
+                    <div class="project-content">
+                        <p class="tag">Java</p>
+                        <h3>Vector Math</h3>
+                        <p>A CSCE 146 project for calculating vector operations and practicing object-oriented Java fundamentals.</p>
+                        <a href="https://github.com/NatDevWorks/Vector_math" target="_blank" rel="noreferrer">View repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="Images/problem.png" alt="OBD problem statement preview">
+                    <div class="project-content">
+                        <p class="tag">UX Research</p>
+                        <h3>Vehicle OBD Helper Concept</h3>
+                        <p>Design work exploring how drivers can better understand complex vehicle diagnostic codes.</p>
+                        <a href="Files/Statement.pdf">Read problem statement</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="Images/Affinity_IMG.png" alt="Affinity diagram preview">
+                    <div class="project-content">
+                        <p class="tag">Product Planning</p>
+                        <h3>Affinity Diagram</h3>
+                        <p>Organized user needs and solution ideas for a cleaner troubleshooting workflow.</p>
+                        <a href="Files/Affinity_DOC.pdf">View artifact</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="Images/prototype.jpg" alt="Paper prototype preview">
+                    <div class="project-content">
+                        <p class="tag">Prototype</p>
+                        <h3>Paper Prototype</h3>
+                        <p>A low-fidelity walkthrough demonstrating the proposed diagnostic support experience.</p>
+                        <a href="https://youtu.be/jb328OxAPM8?si=90-bYIoWBtXg7CKI" target="_blank" rel="noreferrer">Watch prototype</a>
+                    </div>
+                </article>
+            </div>
         </section>
-        <!--Affinity Diagram Assignment -->
-        <section class="project">
-            <a href="Files/Affinity_DOC.pdf"><h3>Affinity Diagram</h3></a>
-            <a href="Files/Affinity_DOC.pdf"><img src="Images/Affinity_IMG.png"></a>
-            <p>Solutions to the problem.</p>
+
+        <section class="section repo-section">
+            <div class="section-heading">
+                <p class="section-label">GitHub</p>
+                <h2>More Repositories</h2>
+                <p>Additional project spaces and experiments available on GitHub.</p>
+            </div>
+            <div class="repo-list">
+                <a class="repo-card" href="https://github.com/NatDevWorks/git-branching-abcs" target="_blank" rel="noreferrer">
+                    <span>git-branching-abcs</span>
+                    <small>Git workflow practice</small>
+                </a>
+                <a class="repo-card" href="https://github.com/NatDevWorks/BFUE5Game" target="_blank" rel="noreferrer">
+                    <span>BFUE5Game</span>
+                    <small>Game project repository</small>
+                </a>
+                <a class="repo-card" href="https://github.com/NatDevWorks/NatDevWorks.github.io" target="_blank" rel="noreferrer">
+                    <span>Portfolio Website</span>
+                    <small>This GitHub Pages site</small>
+                </a>
+            </div>
         </section>
-        <!--Sketches Assignment-->
-        <section class="project">
-            <a href="Files/Sketch.pdf"><h3>sketches</h3></a>
-            <a href="Files/Sketch.pdf"><img src="Images/User_Sketeches.png"></a>
-            <p>A mockup on how the product would look like</p>
-            <!--
-            Content generated using an online tool with assistance from ChatGPT (by OpenAI, DALL-E).
-            -->
+
+        <section class="section skills-section" id="skills">
+            <div class="section-heading">
+                <p class="section-label">Skills</p>
+                <h2>Technical Strengths</h2>
+            </div>
+            <div class="skill-groups">
+                <div>
+                    <h3>Systems</h3>
+                    <ul>
+                        <li>Computer architecture</li>
+                        <li>Windows and Linux</li>
+                        <li>Process management</li>
+                        <li>Virtual machines</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Networking</h3>
+                    <ul>
+                        <li>Remote connections</li>
+                        <li>VPNs and proxies</li>
+                        <li>Computer networking</li>
+                        <li>Troubleshooting</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Development</h3>
+                    <ul>
+                        <li>Java fundamentals</li>
+                        <li>Git and GitHub</li>
+                        <li>Package management</li>
+                        <li>Technical documentation</li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <!--Paper Prototype Assignment-->
-        <section class="project">
-            <a href="https://youtu.be/jb328OxAPM8?si=90-bYIoWBtXg7CKI"><h3> Prototype</h3></a>
-            <a href="https://youtu.be/jb328OxAPM8?si=90-bYIoWBtXg7CKI"><img src="Images/prototype.jpg"></a>
-            <p> My Prototype </p>
-        </section> 
-        
-        <section class="project">
-            <!--Java Project-->
-            <a href="https://github.com/NatDevWorks/Vector_math">
-            <h3>Vector_math</h3>
-            </a>
-            <a href="https://github.com/NatDevWorks/Vector_math">
-            <img src="Images/Vector_Math_code.png">
-            </a>
-            <p>Calculate vector math for CSCE 146</p>
-        </section>
-    </div>
-<h2 class="contact">Contact Me</h2>
-    <div class="contact-info">
-        <p>Email: <a href="mailto:Nathan.Dou@hotmail.com">Nathan.Dou@hotmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/nathan-douangkesone/" target="_blank">linkedin.com/in/nathan-douangkesone</a></p>
-        <p>GitHub: <a href="https://github.com/NatDevWorks" target="_blank">github.com/NatDevWorks</a></p>
-        <p>Phone: <a href="tel:+18033614216">(803) 361-4216</a></p>
-    </div>  
+    </main>
+
+    <footer class="footer" id="contact">
+        <div>
+            <p class="section-label">Contact</p>
+            <h2>Let us build something useful.</h2>
+        </div>
+        <div class="contact-links">
+            <a href="mailto:Nathan.Dou@hotmail.com">Nathan.Dou@hotmail.com</a>
+            <a href="https://www.linkedin.com/in/nathan-douangkesone/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://github.com/NatDevWorks" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="tel:+18033614216">(803) 361-4216</a>
+        </div>
+    </footer>
 </body>
 </html>
