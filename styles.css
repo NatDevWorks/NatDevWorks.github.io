@@ -27,6 +27,7 @@ body {
     color: var(--ink);
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 img {
@@ -114,6 +115,7 @@ a {
 }
 
 .hero-copy {
+    max-width: 100%;
     min-width: 0;
 }
 
@@ -141,7 +143,7 @@ h1 {
     font-size: clamp(3.4rem, 7vw, 5.9rem);
     line-height: 0.98;
     letter-spacing: 0;
-    overflow-wrap: normal;
+    overflow-wrap: break-word;
 }
 
 h2 {
@@ -161,6 +163,7 @@ h3 {
     max-width: 690px;
     color: var(--muted);
     font-size: 1.25rem;
+    overflow-wrap: break-word;
 }
 
 .hero-actions {
@@ -479,6 +482,7 @@ h3 {
     }
 
     .profile-panel {
+        width: 100%;
         max-width: 430px;
     }
 
@@ -526,7 +530,14 @@ h3 {
     }
 
     h1 {
-        font-size: 3.4rem;
+        font-size: 3rem;
+        line-height: 1.05;
+    }
+
+    .hero-copy,
+    .hero-text,
+    .profile-panel {
+        max-width: 350px;
     }
 
     .project-grid,
