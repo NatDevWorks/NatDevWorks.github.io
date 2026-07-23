@@ -204,10 +204,8 @@ h3 {
 }
 
 .profile-panel img {
-    width: 100%;
-    aspect-ratio: 1 / 1.08;
-    border-radius: 8px;
     object-fit: cover;
+    object-position: center top;
 }
 
 .profile-panel p {
