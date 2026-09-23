@@ -400,6 +400,37 @@ h3 {
     font-size: 0.92rem;
 }
 
+.repo-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-self: end;
+    margin-top: 8px;
+}
+
+.repo-card-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 0 10px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--accent-strong);
+    font-size: 0.82rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.repo-card-actions a:first-child {
+    border-color: transparent;
+    background: var(--accent-soft);
+}
+
+.repo-card-actions a:hover {
+    text-decoration: underline;
+}
+
 .skill-groups {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
