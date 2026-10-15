@@ -414,21 +414,26 @@ h3 {
     justify-content: center;
     min-height: 34px;
     padding: 0 10px;
-    border: 1px solid var(--line);
+    border: 1px solid var(--accent);
     border-radius: 8px;
+    background: white;
     color: var(--accent-strong);
     font-size: 0.82rem;
     font-weight: 900;
     text-decoration: none;
+    transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .repo-card-actions a:first-child {
-    border-color: transparent;
-    background: var(--accent-soft);
+    background: var(--accent);
+    color: white;
 }
 
 .repo-card-actions a:hover {
-    text-decoration: underline;
+    background: var(--accent-strong);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-1px);
 }
 
 .skill-groups {
